@@ -39,7 +39,7 @@ export default function Controller({username, setuserName , email , setEmail , s
                     }}
                 >
                     <TextField fullWidth 
-                    label="Search" 
+                    label="Search by Email" 
                     id="fullWidth"
                     onChange={(e)=>{setEmail(e.target.value)}}
 
@@ -54,7 +54,7 @@ export default function Controller({username, setuserName , email , setEmail , s
                 >
                     <TextField
                         id="demo-helper-text-aligned"
-                        label="Username"
+                        label=" Search by username"
                         onChange={(e)=>{setuserName(e.target.value)}}
                     />
 
